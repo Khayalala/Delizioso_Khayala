@@ -1,0 +1,603 @@
+button{
+  cursor: pointer;
+}
+.italian_cuisine {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 164px;
+  padding-right: 50px;
+  margin-top: 130px;
+}
+.reservation_info {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.restaurant {
+  width: 152px;
+  height: 40px;
+  background-color: rgba(255, 138, 0, 0.2);
+  border: none;
+  border-radius: 126px;
+  font-size: 18px;
+  font-family: "Raleway";
+  color: rgb(255, 138, 0);
+}
+h2.cuisine {
+  font-size: 80px;
+  max-width: 288px;
+  color: rgb(49, 31, 9);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+p.cuisineText {
+  max-width: 400px;
+  color: rgb(49, 31, 9);
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 35px;
+}
+.order_buttons {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.order {
+  background-color: rgb(255, 138, 0);
+  font-size: 20px;
+}
+.reservation {
+  background-color: rgb(63, 167, 47);
+  font-size: 20px;
+}
+.pasta {
+  width: 700px;
+  height: 600px;
+}
+
+.welcomeSection {
+  position: relative;
+  display: flex;
+  gap: 153px;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcomeSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(63, 198, 110);
+  opacity: 0.1;
+  z-index: -1;
+}
+.salad {
+  width: 689px;
+  height: 689px;
+}
+
+.welcomePost {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+h2.welcome {
+  font-family: "Tinos";
+  font-size: 80px;
+  font-weight: 700;
+  max-width: 488px;
+  color: rgb(49, 31, 9);
+}
+
+h2.welcome span {
+  color: rgb(255, 138, 0);
+}
+
+p.welcomeText {
+  font-family: "Poppins";
+  font-size: 20px;
+  line-height: 40px;
+  color: rgb(92, 69, 41);
+  max-width: 350px;
+}
+
+button.seeMenu {
+  background-color: rgb(255, 138, 0);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.popularMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 163px 163px 200px 163px;
+  gap: 60px;
+}
+.popularMenu h3 {
+  font-size: 80px;
+  font-family: "Tinos", sans-serif;
+  font-family: 700;
+  color: rgb(49, 31, 9);
+}
+.categoryButtons {
+  display: flex;
+  gap: 27.5px;
+}
+.allCategory {
+  background-color: rgb(208, 204, 199, 0.2);
+  color: rgb(49, 31, 9);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.eachCategory {
+  width: 193px;
+  background-color: rgb(208, 204, 199, 0.2);
+  font-size: 16px;
+  color: rgb(49, 31, 9);
+  cursor: pointer;
+}
+
+.onClick{
+  background-color: rgb(49, 31, 9);
+  color: rgb(255, 255, 255);
+}
+.searchInput {
+  width: 70%;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.menuCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 99px;
+}
+
+.reserveSection {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 1070px;
+  background-color: rgb(255, 244, 231, 0.4);
+}
+.outerCircle {
+  border: 1px solid rgb(49, 31, 9, 0.2);
+  border-radius: 50%;
+  height: 882px;
+  width: 882px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -102px;
+}
+.middleCircle {
+  height: 664px;
+  width: 664px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(225, 195, 159, 0.2);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tableImage {
+  height: 526px;
+  width: 526px;
+  border-radius: 50%;
+}
+.tableUp {
+  height: 143px;
+  width: 143px;
+  position: absolute;
+  bottom: 600px;
+  left: 550px;
+}
+.tableDown {
+  height: 143px;
+  width: 143px;
+  position: absolute;
+  right: 510px;
+  top: 620px;
+}
+
+.reserveButton {
+  width: 233px;
+  background-color: rgb(255, 138, 0);
+  font-size: 20px;
+  margin-top: 130px;
+}
+
+.reserveInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 900px;
+}
+.reserveInfo h3 {
+  font-family: "Tinos";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: left;
+  color: rgb(49, 31, 9);
+  max-width: 450px;
+}
+.reserveInfo h3 span {
+  color: rgb(255, 138, 0);
+}
+.reserveInfo p {
+  font-family: "Poppins";
+  font-size: 20px;
+  color: rgb(92, 69, 41);
+  text-align: left;
+  max-width: 350px;
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+.greatChefs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+.greatChefs h3 {
+  color: rgb(49, 31, 9);
+  font-family: "Tinos";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 200%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.chefsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.viewAllButton {
+  background-color: rgb(255, 138, 0);
+  font-size: 20px;
+}
+
+.businessHours {
+  background-image: url("../../assets/images/businessHoursBG.png");
+  background-size: cover;
+
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 1150px;
+  height: 588px;
+  background-position: center center;
+  margin-left: 150px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.businessHours::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.businessHours * {
+  position: relative;
+  z-index: 2;
+}
+.businessHours h4 {
+  color: rgb(255, 255, 255);
+  font-family: "Tinos";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 200%;
+  text-align: center;
+}
+.businessHours .days {
+  color: rgb(255, 255, 255);
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 200%;
+  text-align: center;
+}
+.businessHours p {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: right;
+}
+.businessHours .reservation {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: rgb(49, 31, 9);
+}
+
+@media (max-width: 768px) {
+  .italian_cuisine {
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 20px;
+    gap: 40px;
+  }
+  .reservation_info {
+    gap: 15px;
+  }
+  .restaurant {
+    width: 93px;
+    height: 25px;
+    font-size: 12px;
+  }
+  h2.cuisine {
+    font-size: 60px;
+    max-width: 220px;
+  }
+  p.cuisineText {
+    max-width: 280px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .order_buttons {
+    gap: 20px;
+    margin-top: 35px;
+  }
+  .order,
+  .reservation {
+    width: 140px;
+    height: 45px;
+    font-size: 12px;
+  }
+  .pasta {
+    width: 340px;
+    height: 315px;
+  }
+
+  .welcomeSection {
+    flex-direction: column;
+    gap: 40px;
+    padding: 25px;
+    width: 100vw;
+  }
+  .salad {
+    width: 360px;
+    height: 388px;
+    order: 2;
+  }
+
+  .welcomePost {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
+  h2.welcome {
+    font-size: 35px;
+    max-width: 200px;
+  }
+  p.welcomeText {
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 280px;
+  }
+  button.seeMenu {
+    font-size: 14px;
+    width: 168px;
+    height: 55px;
+  }
+
+  .popularMenu {
+    padding: 80px 30px 100px 30px;
+    gap: 40px;
+  }
+
+  .popularMenu h3 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .categoryButtons {
+    gap: 10px;
+  }
+
+  .allCategory,
+  .eachCategory {
+    font-size: 14px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .searchInput {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+  }
+
+  .menuCardContainer {
+    gap: 10px;
+  }
+
+  .menuCard {
+    height: auto;
+    padding: 15px 10px;
+    border-radius: 40px;
+    width: 150px;
+  }
+
+  .cardImage {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cardTitle {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  p.cardInfo {
+    font-size: 10px;
+    max-width: 150px;
+    margin-top: 15px;
+    max-height: 40px;
+    overflow-y: scroll;
+  }
+
+  .cardFooter {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+  .cardRating {
+    gap: 3px;
+    margin-top: 8px;
+  }
+  .cardRating .starIcon {
+    width: 10px;
+    height: 10px;
+  }
+
+  .cardFooter .cardPrice {
+    font-size: 14px;
+  }
+
+  .cardFooter .cardButton {
+    width: 100px;
+    height: 40px;
+  }
+
+  .reserveSection {
+    display: flex;
+    flex-direction: column;
+    height: 845px;
+    margin-top: 0;
+    position: relative;
+    width: 100vw;
+    padding: 25px;
+  }
+  .outerCircle {
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    left: 0;
+    order: 2;
+    bottom: 100px;
+  }
+  .middleCircle {
+    height: 320px;
+    width: 320px;
+  }
+  .tableImage {
+    height: 253px;
+    width: 253px;
+    border-radius: 50%;
+  }
+  .tableUp {
+    height: 69px;
+    width: 69px;
+    position: absolute;
+    bottom: 290px;
+    left: 250px;
+  }
+  .tableDown {
+    height: 69px;
+    width: 69px;
+    position: absolute;
+    right: 250px;
+    top: 290px;
+  }
+  .reserveButton {
+    width: 168px;
+    height: 55px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  .reserveInfo {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -50px;
+  }
+  .reserveInfo h3 {
+    font-size: 35px;
+    max-width: 210px;
+  }
+  .reserveInfo p {
+    font-size: 12px;
+    max-width: 210px;
+    margin-top: 30px;
+    line-height: 20px;
+  }
+  .greatChefs {
+    gap: 30px;
+    padding: 25px;
+  }
+  .greatChefs h3 {
+    font-size: 35px;
+  }
+  .chefsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .viewAllButton {
+    display: none;
+  }
+
+  .businessHours {
+    background-image: url("../../assets/images/businessHoursBG.png");
+    background-size: cover;
+
+    padding: 10px; /* Reduce padding */
+    color: white;
+    text-align: center;
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Let the height adjust based on content */
+    background-position: center center;
+    margin-left: 0; /* No margin on mobile */
+    margin-top: 50px; /* Adjust top margin for mobile */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .businessHours h4 {
+    font-size: 40px; /* Reduce font size */
+    line-height: 150%; /* Adjust line-height */
+  }
+
+  .businessHours .days {
+    font-size: 24px; /* Smaller font size for mobile */
+    line-height: 150%; /* Adjust line-height */
+  }
+
+  .businessHours p {
+    font-size: 16px; /* Reduce font size */
+    text-align: center; /* Center text for better readability */
+  }
+
+  .businessHours .reservation {
+    font-size: 16px; /* Make button text smaller */
+    padding: 10px 20px; /* Adjust button padding */
+    margin-top: 0; /* Add spacing to separate from other content */
+  }
+}

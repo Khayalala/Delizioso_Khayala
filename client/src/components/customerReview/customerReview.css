@@ -1,0 +1,242 @@
+.customersReview {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  background-color: rgb(208, 204, 199, 0.1);
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.customersReview h4 {
+  color: rgb(49, 31, 9);
+  font-family: "Tinos";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 200%;
+  text-align: center;
+  margin-top: 50px;
+}
+.customersReview .reviewText {
+  color: rgb(92, 69, 41);
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+  max-width: 430px;
+  position: relative;
+}
+
+.quotesLeft,
+.quotesRight {
+  width: 37.37px;
+  height: 149.48px;
+}
+.quotesLeft {
+  position: absolute;
+  left: -60px;
+  top: -100px;
+}
+.quotesRight {
+  position: absolute;
+  right: -60px;
+  bottom: -100px;
+}
+
+.customersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.outerCustomers {
+  display: flex;
+  justify-content: center;
+  gap: 800px;
+}
+.leftCustomer3,
+.rightCustomer3 {
+  width: 66.33px;
+  height: 65.4px;
+}
+.middleCustomers {
+  display: flex;
+  justify-content: center;
+  gap: 600px;
+}
+.leftCustomer2,
+.rightCustomer2 {
+  width: 105.57px;
+  height: 104.64px;
+}
+.bottomCustomers {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.leftCustomer1,
+.rightCustomer1 {
+  width: 124.26px;
+  height: 123.32px;
+}
+.middleCustomer {
+  width: 232.61px;
+  height: 232.61px;
+}
+.greenCircle {
+  position: absolute;
+
+  width: 98px;
+  height: 98px;
+  background-color: rgb(206, 239, 200, 0.6);
+  border-radius: 100%;
+  left: 40px;
+  top: 20px;
+}
+.pingCircle {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  background-color: rgba(245, 99, 99, 0.1);
+  border-radius: 100%;
+  right: 350px;
+  top: 350px;
+}
+.orangeCircle {
+  position: absolute;
+  width: 65.57px;
+  height: 65.57px;
+  background-color: rgba(255, 138, 0, 0.51);
+  border-radius: 100%;
+  left: 50px;
+  top: 580px;
+}
+.purpleCircle {
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  border-radius: 100%;
+  background-color: rgba(243, 167, 255, 0.53);
+  right: 0px;
+  top: 480px;
+}
+
+.lightOrangeCircle {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background-color: rgb(255, 138, 0, 0.2);
+  left: 280px;
+  bottom: 170px;
+}
+
+@media (max-width: 768px) {
+  .customersReview {
+    margin-top: 0;
+    gap: 40px; 
+    padding-bottom: 30px;
+  }
+
+  .customersReview h4 {
+    font-size: 35px; 
+    margin-top: 30px;
+  }
+
+  .customersReview .reviewText {
+    font-size: 12px; 
+    max-width: 230px; 
+  }
+
+  .quotesLeft,
+  .quotesRight {
+    width: 20px; 
+    height: 80px;
+  }
+
+  .quotesLeft {
+    left: -20px; 
+    top: -20px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .quotesRight {
+    right: -20px; 
+    bottom: -20px;
+    height: 15px;
+    width: 15px;
+  }
+
+  .customersContainer {
+    flex-direction: column;
+  }
+
+  .outerCustomers {
+    gap: 300px; 
+    display: none;
+    
+  }
+
+  .middleCustomers {
+    gap: 250px; 
+  }
+
+  .leftCustomer2,
+  .rightCustomer2 {
+    width: 43px; 
+    height: 43px;
+  }
+
+  .bottomCustomers {
+    gap: 20px; 
+  }
+
+  .leftCustomer1,
+  .rightCustomer1 {
+    width: 51px; 
+    height: 51px;
+  }
+
+  .middleCustomer {
+    width: 90px; 
+    height: 90px;
+  }
+
+  .greenCircle {
+    width: 60px; 
+    height: 60px;
+    left: 20px;
+    top: 10px;
+  }
+
+  .pingCircle {
+    width: 60px; 
+    height: 60px;
+    right: 200px;
+    top: 250px;
+  }
+
+  .orangeCircle {
+    width: 40px; 
+    height: 40px;
+    left: 30px;
+    top: 400px;
+  }
+
+  .purpleCircle {
+    width: 50px; 
+    height: 50px;
+    right: 0;
+    top: 320px;
+  }
+
+  .lightOrangeCircle {
+    width: 30px; 
+    height: 30px;
+    left: 180px;
+    bottom: 100px;
+  }
+}

@@ -1,0 +1,9 @@
+button{
+    width: 232px;
+    height: 74px;
+    border-radius: 163px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,115 @@
+.orderListContainer {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 150px;
+  right: 50px;
+}
+
+.orderList h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(49, 31, 9);
+  background-color: rgb(255, 138, 0);
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.orderList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.orderListItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 18px;
+  color: rgb(49, 31, 9);
+}
+
+.orderListItem:last-child {
+  border-bottom: none;
+}
+
+.voucherSection {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.voucherInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.voucherButton {
+  background-color: rgb(255, 138, 0);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.checkoutButton {
+  background-color: rgb(63, 167, 47);
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.totalPrice {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(49, 31, 9);
+  text-align: center;
+}
+
+.quantityButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.quantityButtons button {
+  background-color: rgb(255, 138, 0);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 40px;
+  text-align: center;
+  height: 50px;
+}
+
+.quantityButtons button:hover {
+  background-color: rgb(220, 120, 0);
+}
+
+@media (max-width: 768px) {
+  .orderListContainer {
+    position: sticky;
+    left: 50px;
+  }
+}

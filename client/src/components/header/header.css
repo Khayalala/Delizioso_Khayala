@@ -1,0 +1,120 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 51px 164px;
+  position: relative;
+  z-index: 3;
+}
+
+.logo {
+  width: 132px;
+  height: 51px;
+}
+
+.header_nav_list {
+  display: flex;
+  gap: 45px;
+}
+
+.header_nav_list_item a {
+  font-family: "Poppins";
+  font-size: 14px;
+  color: rgb(49, 31, 9);
+  cursor: pointer;
+}
+
+.shopping_cart {
+  position: relative;
+}
+.cart_icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.item_count {
+  height: 16px;
+  width: 16px;
+  background-color: rgb(255, 56, 56);
+  border: none;
+  border-radius: 50%;
+  font-family: "Poppins";
+  font-size: 8px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 14px;
+  bottom: 15px;
+}
+
+.log_in {
+  width: 122px;
+  height: 50px;
+  border: none;
+  background-color: rgb(63, 167, 47);
+  border-radius: 132px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 600;
+  cursor: pointer;
+}
+.log_out{
+  width: 122px;
+  height: 50px;
+  border: none;
+  background-color: rgb(255, 138, 0);
+  border-radius: 132px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 600;
+  cursor: pointer;
+}
+.log_in a{
+  color: rgb(255, 255, 255);
+}
+.menuIcon {
+  height: 24px;
+  width: 24px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+  }
+  .header_nav_list {
+    flex-direction: column;
+    position: absolute;
+    right: -150px; 
+    background-color: rgb(255, 138, 0);
+    width: 150px;
+    margin-top: 20px;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .header_nav_list_item a {
+    color: rgb(255, 255, 255);
+  }
+  .log_in {
+    display: none;
+  }
+  .log_out{
+    width: 50px;
+    background-color: rgb(63, 167, 47);
+  }
+  .menuIcon {
+    display: flex;
+  }
+
+  .showNav .header_nav_list {
+    right: 0px;
+  }
+}

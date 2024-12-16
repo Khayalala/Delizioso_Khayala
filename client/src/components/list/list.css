@@ -1,0 +1,17 @@
+footer .footerListItems {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 20px;
+}
+footer .footerListItems li a {
+  color: rgb(227, 226, 224);
+  font-family: "Poppins";
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  cursor: pointer;
+}
+footer .footerTop .getInTouch .footerListItems li{
+    max-width: 320px;
+}
